@@ -140,7 +140,7 @@ trigger:
         vmImage: 'ubuntu-18.04'
       variables:
       - group: Release
-      steps: 
+      steps:
       - script: |
           sudo apt-get update
           sudo apt-get install xsltproc
