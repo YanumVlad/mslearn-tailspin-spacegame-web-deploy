@@ -142,6 +142,6 @@ trigger:
       - group: Release
       steps: 
       - script: |
-          wget -c "ftp.ps.pl/pub/apache/jmeter/binaries/apache-jmeter-$(jmeterVersion).tgz"
-          tar -xf "apache-jmeter-$(jmeterVersion).tgz"
+          wget -c ftp.ps.pl/pub/apache/jmeter/binaries/apache-jmeter-5.3.tgz
+          tar -xf apache-jmeter-5.3.tgz
         displayName: 'Install Apache JMeter'
